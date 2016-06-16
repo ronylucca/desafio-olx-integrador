@@ -36,7 +36,14 @@ Tecnologias usadas:
     - Existe a possibilidade de acompanhar todo o fluxo de mensageria atraves do console do ActiveMQ.
     
     
-  Qualquer dúvida fiquem a vontade para entrar em contato:
+  PS.: Incluí o .war em uma pasta no Drive do google para adiantar. Segue o link:
+    - https://drive.google.com/folderview?id=0B0fkqCpGVfWoRVNZb0pRbDdZUFU&usp=sharing
+    De qualquer forma precisa naturalmente do tomcat e da instancia do ActiveMQ de pé e com a fila criada.
+        - ActiveMQ : http://www.apache.org/dyn/closer.cgi?filename=/activemq/5.13.3/apache-activemq-5.13.3-bin.tar.gz&action=download
+        
+
+Qualquer dúvida fiquem a vontade para entrar em contato. Se acharem interessante, posso ir até vocês pessoalmente configurar o ambiente e/ou levo a minha de desenvolvimento com tudo ok.
+
   ronylucca@gmail.com
   21 999929055
   
