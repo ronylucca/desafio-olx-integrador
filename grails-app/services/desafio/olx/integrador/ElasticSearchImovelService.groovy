@@ -46,7 +46,6 @@ class ElasticSearchImovelService {
     @Deprecated
     def converterXML(xmlNaoValidado, String caminhoXSDCorrespondente) {
         return new XmlSlurper().parseText(xmlNaoValidado)
-
     }
 
 }
