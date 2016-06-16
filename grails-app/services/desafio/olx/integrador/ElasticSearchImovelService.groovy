@@ -20,7 +20,6 @@ class ElasticSearchImovelService {
     }
 
     def solicitaInclusaoDocumentoImovel(imovel){
-        rest = new RestBuilder(connectTimeout: 5000, readTimeout: 20000)
 
         try {
             def respostaHttp
