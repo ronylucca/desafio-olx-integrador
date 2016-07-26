@@ -1,5 +1,5 @@
-# desafio-olx-integrador
-Projeto desafio OLX feeds
+# grails-jms-activemq-rest
+
 
 Tecnologias usadas:
  - Grails 2.4.4
@@ -29,24 +29,13 @@ Tecnologias usadas:
     
   @ Fluxo 
     - o Job ConsultaFonteIntegradoraJob inicia sua trajetória obtendo o conteúdo em XML da integradora de imóveis e solicita para cada Imovel,
-    inclusão de mensagem na fila. Mesmo sendo um teste, achei inevitável o uso de Jms pois esse efeito tem grande impacto na arquitetura onde processa-se milhoes/dia.
+    inclusão de mensagem na fila.
     - Existe um listener que escuta essa fila e segue com a segunda parte do processo. Para cada mensagem, gera-se um json e realiza-se um POST 
     no serviço de MOCK REST citado acima.
     - O processo continua ciclicamente até ser parado. 
     - Existe a possibilidade de acompanhar todo o fluxo de mensageria atraves do console do ActiveMQ.
     
-    
-  PS.: Incluí o .war em uma pasta no Drive do google para adiantar. Segue o link:
-    - https://drive.google.com/folderview?id=0B0fkqCpGVfWoRVNZb0pRbDdZUFU&usp=sharing
-    De qualquer forma precisa naturalmente do tomcat e da instancia do ActiveMQ de pé e com a fila criada.
-        - ActiveMQ : http://www.apache.org/dyn/closer.cgi?filename=/activemq/5.13.3/apache-activemq-5.13.3-bin.tar.gz&action=download
-        
 
-Qualquer dúvida fiquem a vontade para entrar em contato. Se acharem interessante, posso ir até vocês pessoalmente configurar o ambiente e/ou levo a minha de desenvolvimento com tudo ok.
-
-  ronylucca@gmail.com
-  21 999929055
-  
   
   Rony de Lucca
         
