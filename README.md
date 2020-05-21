@@ -34,8 +34,5 @@ Tecnologias usadas:
     no serviço de MOCK REST citado acima.
     - O processo continua ciclicamente até ser parado. 
     - Existe a possibilidade de acompanhar todo o fluxo de mensageria atraves do console do ActiveMQ.
-    
-
-  
-  Rony de Lucca
+   
         
